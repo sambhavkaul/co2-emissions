@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="container">
+    <div class="row">
+        <div class="col lg-6">
+            <img id="1"class="zoomm-img" style="height:500px; width: 510px; margin-top: 110px; margin-left: 0px; border-style:solid; border-width: 6px" src="{{ user_image }}" alt="User Image"> 
+            <h3 style="color:black; text-align: center">Predictions of CO2 emissions around the globe</h3>   
+        </div>
+        <div class="col lg-6">
+            <img id="2" class="zoomm-img" style="height:500px; width: 510px; margin-top: 110px; border-style:solid; border-width: 6px" src="{{ table_img }}" alt="Table Image"> 
+            <h3 style="color:black; text-align: center">CO2 emissions trends in top 5 countries by ML model</h3>   
+   
+        </div>
+  
+    </div>
+</div>
+
+{% endblock content%}
+
